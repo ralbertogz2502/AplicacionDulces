@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionDulces.Paginas.ActCategoria">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <Label Text="Administración de Categorías" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24" TextColor="Silver"></Label>
+        <Label Text="Nombre de la categoría:" ></Label>
+        <Entry x:Name="entryNombre" HorizontalOptions="FillAndExpand"></Entry>
+        <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" BackgroundColor="Green" TextColor="Silver" HorizontalOptions="FillAndExpand"></Button>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

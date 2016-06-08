@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionDulces.Paginas.Login">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <Label Text="Tienda Móvil Dulces" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24" TextColor="Silver"></Label>
+        <Label>   </Label>
+        <Image Source="logo.jpg" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="130" HeightRequest="130"></Image>
+        <Label>   </Label>
+        <Button x:Name="btnClientes" Clicked="btnClientes_Clicked" Text="Compradores" BackgroundColor="#305DF0" TextColor="Silver" HorizontalOptions="FillAndExpand"></Button>
+        <Label>   </Label>
+        <Button x:Name="btnVendedores" Clicked="btnVendedores_Clicked" Text="Vendedores" BackgroundColor="#0F8506" TextColor="Silver" HorizontalOptions="FillAndExpand"></Button>
+        <Label>   </Label>
+        <Button x:Name="btnAdministrador" Clicked="btnAdministrador_Clicked" Text="Administrador" BackgroundColor="#C91808" TextColor="Silver" HorizontalOptions="FillAndExpand"></Button>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

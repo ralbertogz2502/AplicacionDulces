@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionDulces.Paginas.Compras">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <Label Text="Catálogo de Productos" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24" TextColor="Silver"></Label>
+        <Label></Label>
+        <Picker x:Name="categoria" Title="Selecciona una Categoría" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Picker>
+        <Label></Label>
+        <Picker x:Name="productop" Title="Selecciona un Producto" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Picker>
+        <Label>Descripción</Label>
+        <Label x:Name="DescripcionP"></Label>
+        <Label>Precio Unitario</Label>
+        <Label x:Name="PrecioP"></Label>
+        <Picker x:Name="disponibles" Title="Selecciona la cantidad deseada" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Picker>
+        <Label></Label>
+        <Button x:Name="btnAgregar" Clicked="btnAgregar_Clicked" Text="Agregar Compra" BackgroundColor="#1D8F0B" TextColor="White" HorizontalOptions="FillAndExpand"></Button>
+        <ListView x:Name="lstCompra" RowHeight="60">
+
+        </ListView>
+        <Label>Dirección de entrega</Label>
+        <Entry x:Name="Direccion" TextColor="Black" BackgroundColor="Black"></Entry>
+        <Button x:Name="btnFin" Clicked="btnFin_Clicked" Text="Finalizar Compra" BackgroundColor="#CF730A" TextColor="White" HorizontalOptions="FillAndExpand"></Button>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

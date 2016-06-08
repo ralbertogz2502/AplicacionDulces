@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionDulces.Paginas.ActClientes">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <Label Text="Administración de Clientes" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24" TextColor="Silver"></Label>
+        <Label Text="Nombre:" ></Label>
+        <Entry x:Name="entryNombre" HorizontalOptions="FillAndExpand"></Entry>
+        <Label Text="Apellido Paterno"></Label>
+        <Entry x:Name="entryPaterno" HorizontalOptions="FillAndExpand"></Entry>
+        <Label Text="Apellido Materno"></Label>
+        <Entry x:Name="entryMaterno" HorizontalOptions="FillAndExpand"></Entry>
+        <Label Text="Telefono:"></Label>
+        <Entry x:Name="entryTelefono" HorizontalOptions="FillAndExpand"></Entry>
+        <Label Text="Correo:"></Label>
+        <Entry x:Name="entryCorreo" HorizontalOptions="FillAndExpand"></Entry>
+        <Label Text="Usuario"></Label>
+        <Entry x:Name="entryUsuario" HorizontalOptions="FillAndExpand"></Entry>
+        <Label Text="Contraseña"></Label>
+        <Entry x:Name="entryContrasena" HorizontalOptions="FillAndExpand" IsPassword="True"></Entry>
+        <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" BackgroundColor="Green" TextColor="Silver" HorizontalOptions="FillAndExpand"></Button>
+        <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked" BackgroundColor="Red" TextColor="Silver" HorizontalOptions="FillAndExpand"></Button>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

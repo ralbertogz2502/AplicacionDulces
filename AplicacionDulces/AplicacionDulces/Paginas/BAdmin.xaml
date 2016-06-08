@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionDulces.Paginas.BAdmin">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <Label Text="Menú de Administrador" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24" TextColor="Silver"></Label>
+        <Label x:Name="Administrador">   </Label>
+        <Label></Label>
+        <Button x:Name="btnClientes" Clicked="btnClientes_Clicked" Text="Administración de Clientes" BackgroundColor="#717CDE" TextColor="Black" HorizontalOptions="FillAndExpand"></Button>
+        <Label></Label>
+        <Button x:Name="btnCategorias" Clicked="btnCategorias_Clicked" Text="Administración de Categorias" BackgroundColor="#F51E1E" TextColor="Black" HorizontalOptions="FillAndExpand"></Button>
+        <Label></Label>
+        <Button x:Name="btnProductos"  Clicked="btnProductos_Clicked" Text="Administración de Productos" BackgroundColor="#42B76F" TextColor="Black" HorizontalOptions="FillAndExpand"></Button>
+        <Label></Label>
+        
+        <Button x:Name="btnVendedores" Clicked="btnVendedores_Clicked" Text="Administración de Vendedores" BackgroundColor="#C2DA0F" TextColor="Black" HorizontalOptions="FillAndExpand"></Button>
+        <Label></Label>
+        <Button x:Name="btnPedidos"  Clicked="btnPedidos_Clicked" Text="Administración de Pedidos" BackgroundColor="#8E491E" TextColor="Black" HorizontalOptions="FillAndExpand"></Button>
+        <Label></Label>
+        <Image Source="manager.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300" HeightRequest="200"></Image>
+        <Label>   </Label>
+        <Label>   </Label>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

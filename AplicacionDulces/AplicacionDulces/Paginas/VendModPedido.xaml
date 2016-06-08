@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionDulces.Paginas.VendModPedido">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <Label Text="Administración de Pedidos" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24" TextColor="Silver"></Label>
+        <Label Text="Dirección del pedido:" ></Label>
+        <Entry x:Name="entryPedido" HorizontalOptions="FillAndExpand" IsEnabled="False"></Entry>
+        <Label Text="Status del pedido:" ></Label>
+        <Picker x:Name="entryStatus" HorizontalOptions="FillAndExpand"></Picker>
+        <Button x:Name="btnActualizar" Text="Actualizar" BackgroundColor="Blue" TextColor="Silver" HorizontalOptions="FillAndExpand"></Button>
+        <ListView x:Name="lstStatus" RowHeight="60" >
+        </ListView>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

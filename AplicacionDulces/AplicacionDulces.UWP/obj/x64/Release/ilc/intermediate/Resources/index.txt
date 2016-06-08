@@ -1,0 +1,20 @@
+AplicacionDulces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  AplicacionDulces.Paginas.Login.xaml
+  AplicacionDulces.Paginas.LogCliente.xaml
+  AplicacionDulces.Paginas.LogVendedor.xaml
+  AplicacionDulces.Paginas.BCliente.xaml
+  AplicacionDulces.Paginas.BVendedor.xaml
+  AplicacionDulces.Paginas.Catalogo.xaml
+  AplicacionDulces.Paginas.Compras.xaml
+  AplicacionDulces.Paginas.Factura.xaml
+  AplicacionDulces.Paginas.Productos.xaml
+  AplicacionDulces.Paginas.LogAdmin.xaml
+  AplicacionDulces.Paginas.BAdmin.xaml
+  AplicacionDulces.Paginas.ActualizarProd.xaml
+  AplicacionDulces.Paginas.AClientes.xaml
+  AplicacionDulces.Paginas.AdmCategoria.xaml
+  AplicacionDulces.Paginas.ActCategoria.xaml
+  AplicacionDulces.Paginas.ActClientes.xaml
+  AplicacionDulces.Paginas.AVendedor.xaml
+  AplicacionDulces.Paginas.ActVendedor.xaml
+  AplicacionDulces.Paginas.Page1.xaml

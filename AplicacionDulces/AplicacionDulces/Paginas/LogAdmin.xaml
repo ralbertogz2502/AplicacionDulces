@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionDulces.Paginas.LogAdmin">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <Label Text="Inicio de Sesión de Administrador" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24" TextColor="Silver"></Label>
+        <Label>   </Label>
+        <Image Source="administrator_icon.jpg" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="130" HeightRequest="130"></Image>
+        <Label></Label>
+        <ActivityIndicator x:Name="waitActivityIndicator"
+          HorizontalOptions="Center" VerticalOptions="Center">
+        </ActivityIndicator>
+        <Label>Nombre de Usuario</Label>
+        <Entry x:Name="UAdmin" ></Entry>
+        <Label>Contraseña</Label>
+        <Entry x:Name="CAdmin" IsPassword="True"></Entry>
+        <Button x:Name="btnLoginAdmin" Clicked="btnAdmin_Clicked" Text="Iniciar Sesión" BackgroundColor="#9CF0E3" TextColor="Navy" HorizontalOptions="FillAndExpand"></Button>
+        <Label>   </Label>
+        <Label>   </Label>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

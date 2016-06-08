@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionDulces.Paginas.ActualizarProd">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <Label Text="Administración de Productos" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24" TextColor="Silver"></Label>
+        <Label Text="Nombre del producto:" ></Label>
+        <Entry x:Name="entryNombre" HorizontalOptions="FillAndExpand"></Entry>
+        <Label Text="Precio Unitario"></Label>
+        <Entry x:Name="entryPrecio" HorizontalOptions="FillAndExpand"></Entry>
+        <Label Text="Descripcion:"></Label>
+        <Entry x:Name="entryDescripcion" HorizontalOptions="FillAndExpand"></Entry>
+        <Label Text="Cantidad:"></Label>
+        <Entry x:Name="entryCantidad" HorizontalOptions="FillAndExpand"></Entry>
+        <Label Text="Categoría:"></Label>
+        <Picker x:Name="entryCategoria"></Picker>
+        <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" BackgroundColor="Green" TextColor="Silver" HorizontalOptions="FillAndExpand"></Button>
+        <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked" BackgroundColor="Red" TextColor="Silver" HorizontalOptions="FillAndExpand"></Button>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

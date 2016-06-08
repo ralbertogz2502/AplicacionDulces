@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionDulces.Paginas.AdmPedidos">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        <Label Text="Administración de Pedidos" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24" TextColor="Silver"></Label>
+        <Label>Día</Label>
+        <DatePicker x:Name="diaobtener"></DatePicker>
+        <Label>Mes</Label>
+        <Picker x:Name="Mes"></Picker>
+        <Label>Año</Label>
+        <Picker x:Name="Ano"></Picker>
+        <ListView x:Name="lstPedidos" RowHeight="60">
+        </ListView>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

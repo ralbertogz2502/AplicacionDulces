@@ -1,0 +1,2 @@
+C:\Users\Alberto_Zamudio\Documents\Visual Studio 2015\Projects\AplicacionDulces\AplicacionDulces\AplicacionDulces.UWP\AplicacionDulces.UWP.csproj;x86
+C:\Users\Alberto_Zamudio\Documents\Visual Studio 2015\Projects\AplicacionDulces\AplicacionDulces\AplicacionDulces\AplicacionDulces.csproj;neutral
